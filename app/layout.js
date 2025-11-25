@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
         <main className="flex-1 container mx-auto px-4 py-8">
           {children}
         </main>
-        <ChatWidget />
         <Footer />
       </body>
     </html>

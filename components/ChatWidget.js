@@ -5,14 +5,7 @@ import { useEffect } from 'react'
 export default function ChatWidget() {
   useEffect(() => {
     const style = document.createElement('style')
-    style.innerHTML = `
-      df-messenger {
-        z-index: 999;
-        position: fixed;
-        bottom: 16px;
-        right: 16px;
-      }
-    `
+    
     document.head.appendChild(style)
   }, [])
 

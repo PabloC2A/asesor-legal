@@ -13,7 +13,7 @@ export default function Page() {
           <p className="text-sm text-slate-500">El chat está disponible abajo. Escribe tu pregunta en español.</p>
         </div>
       </section>
-
+      <ChatWidget />
     </div>
   )
 }
