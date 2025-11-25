@@ -12,8 +12,8 @@ export default function ChatWidget() {
   return (
     <df-messenger
       location="us-central1"
-      project-id="newagent-mvav"
-      agent-id="4b945d8b-097c-412e-ad7a-0a71bf8a8888"
+      project-id={process.env.NEXT_PUBLIC_DIALOGFLOW_PROJECT_ID}
+      agent-id={process.env.NEXT_PUBLIC_DIALOGFLOW_AGENT_ID}
       language-code="es"
       max-query-length="-1">
       <df-messenger-chat chat-title="Abogado"></df-messenger-chat>
